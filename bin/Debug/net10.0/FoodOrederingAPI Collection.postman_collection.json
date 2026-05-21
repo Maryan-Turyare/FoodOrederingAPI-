@@ -1,0 +1,148 @@
+{
+  "info": {
+    "_postman_id": "57380402-8d79-4930-aae6-9396014605e0",
+    "name": "FoodOrederingAPI Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45074905"
+  },
+  "item": [
+    {
+      "name": "http://localhost:5111/api/Order",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"username\": \"team ASP,NET\",\r\n    \"password\": \"1234567\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5111/api/Order",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5111",
+          "path": [
+            "api",
+            "Order"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:5111/api/Food",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5111/api/Food",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5111",
+          "path": [
+            "api",
+            "Food"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:5111/api/Auth/register",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5111/api/Auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5111",
+          "path": [
+            "api",
+            "Auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:5111/api/Auth/login",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5111/api/Auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5111",
+          "path": [
+            "api",
+            "Auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:5111/api/Food",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Bariis\",\r\n    \"price\": \"25\",\r\n    \"description\": \"Bariis xamse\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5111/api/Food",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5111",
+          "path": [
+            "api",
+            "Food"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
